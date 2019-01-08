@@ -1,14 +1,4 @@
-## web-part-plus-app-customizer
-
-This is where you include your WebPart documentation.
-
-### Building the code
-
-```bash
-git clone the repo
-npm i
-
-## Description of Issue
+## web-part-plus-app-customizer - description of issue
 
 This project was intialized with a single HelloWorld web part.
 
@@ -23,3 +13,12 @@ As a user, you may try to add a separate feature for the web part but that will 
 See issue on sp-dev-docs project.
 
 https://github.com/SharePoint/sp-dev-docs/issues/3199
+
+### Building the code
+
+```bash
+git clone the repo
+npm i
+
+
+
