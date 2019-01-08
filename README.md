@@ -14,6 +14,11 @@ See issue on sp-dev-docs project.
 
 https://github.com/SharePoint/sp-dev-docs/issues/3199
 
+For work-around, reference the WebPartPlusAppCustomizer branch.
+
+More details on this blog post.
+http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2019/01/08/how-to-properly-add-an-application-customizer-to-an-existing-spfx-web-part-project.aspx
+
 ### Building the code
 
 ```bash
