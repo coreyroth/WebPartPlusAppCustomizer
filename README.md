@@ -7,20 +7,19 @@ This is where you include your WebPart documentation.
 ```bash
 git clone the repo
 npm i
-npm i -g gulp
-gulp
-```
 
-This package produces the following:
+## Description of Issue
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+This project was intialized with a single HelloWorld web part.
 
-### Build options
+I then added an application customizer using yo.
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+I incremented the version number of the package and republished the solution.  The application customizer is present, the web parts are no longer present.
+
+This is caused by the fact that web parts out of the box do not require a feature definition in pacakge-solution.json.  Adding the application customizer, adds a feature and caused the web parts to deploy.
+
+As a user, you may try to add a separate feature for the web part but that will cause issues with previous version of the code being loaded when you do future deployments.  
+
+See issue on sp-dev-docs project.
+
+https://github.com/SharePoint/sp-dev-docs/issues/3199
