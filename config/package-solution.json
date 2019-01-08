@@ -3,7 +3,7 @@
   "solution": {
     "name": "web-part-plus-app-customizer-client-side-solution",
     "id": "64380dc5-ce1e-4227-9b47-5ca7f9134d12",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "features": [
@@ -11,13 +11,17 @@
         "title": "Application Extension - Deployment of custom action.",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "82cb0cda-24bf-4aec-87df-c9571f82ad6b",
-        "version": "1.0.0.1",
+        "version": "1.0.0.2",
         "assets": {
           "elementManifests": [
             "elements.xml",
             "clientsideinstance.xml"
           ]
-        }
+        },
+        "componentIds": [
+          "2c3bc847-128a-4ed9-94b2-3f46b02e6924",
+          "5bd48a40-6b4a-45b5-a919-95d12c9137a0"
+        ]
       }
     ]
   },
