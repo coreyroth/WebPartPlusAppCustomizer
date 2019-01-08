@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  },
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://allegient.sharepoint.com/sites/takeda-digitalindex/SitePages/helloworldtest.aspx",
+      "customActions": {
+        "2c3bc847-128a-4ed9-94b2-3f46b02e6924": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://allegient.sharepoint.com/sites/takeda-digitalindex/SitePages/helloworldtest.aspx",
+      "customActions": {
+        "2c3bc847-128a-4ed9-94b2-3f46b02e6924": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
